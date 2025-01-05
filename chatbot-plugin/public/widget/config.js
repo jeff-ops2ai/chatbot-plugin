@@ -5,5 +5,7 @@ export const config = {
   ELEVENLABS_API_URL: 'https://api.elevenlabs.io/v1',
   VOICE_ID: 'your_voice_id_here',
   DEFAULT_MODEL: 'gpt-3.5-turbo',
-  DEFAULT_VOICE: 'alloy'
+  DEFAULT_VOICE: 'alloy',
+  SUPABASE_URL: 'your_supabase_url_here',
+  SUPABASE_KEY: 'your_supabase_key_here'
 }; 
