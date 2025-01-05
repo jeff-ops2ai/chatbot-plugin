@@ -1,3 +1,5 @@
+import { config } from './config.js';
+
 (function() {
   const script = document.currentScript;
   const chatbotId = script.getAttribute('data-chatbot-id');
@@ -8,8 +10,8 @@
   }
 
   // Get Supabase config from meta tags
-  const supabaseUrl = 'https://hgmydjbafgodlgnkjlhs.supabase.co';
-  const supabaseKey = 'aeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhnbXlkamJhZmdvZGxnbmtqbGhzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzU4ODMwNjAsImV4cCI6MjA1MTQ1OTA2MH0._vg0aO7TjZvAQAYWUxw4YzdZgeoNaso2vE-k7_GmT8k';
+  const supabaseUrl = config.SUPABASE_URL;
+  const supabaseKey = config.SUPABASE_KEY;
 
   console.log('🎙️ Initializing voice chat widget:', {
     chatbotId,
