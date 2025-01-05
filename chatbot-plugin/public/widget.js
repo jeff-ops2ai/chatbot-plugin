@@ -9,7 +9,7 @@
 
   // Get Supabase config from meta tags
   const supabaseUrl = 'https://hgmydjbafgodlgnkjlhs.supabase.co';
-  const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhnbXlkamJhZmdvZGxnbmtqbGhzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzU4ODMwNjAsImV4cCI6MjA1MTQ1OTA2MH0._vg0aO7TjZvAQAYWUxw4YzdZgeoNaso2vE-k7_GmT8k';
+  const supabaseKey = 'aeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhnbXlkamJhZmdvZGxnbmtqbGhzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzU4ODMwNjAsImV4cCI6MjA1MTQ1OTA2MH0._vg0aO7TjZvAQAYWUxw4YzdZgeoNaso2vE-k7_GmT8k';
 
   console.log('🎙️ Initializing voice chat widget:', {
     chatbotId,
